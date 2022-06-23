@@ -1,0 +1,117 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>w3school css-1</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<h1><u>CSS Home</u></h1>
+		<p>This is a paragraph.</p>
+
+	<h1><u>CSS Selector</u></h1>
+		<h2>The 'element' Selector:</h2>
+			<p>Just because women bravely borne ill treatment doesn't mean that it is justified.</p>
+		<h2>The 'id' Selector:</h2>
+			<p id="para1">To establish herself, women have to encounter far more obstacles than a man.</p>
+
+		<h2>The 'class' Selector:</h2>
+			<p class="para2">By hailing these women as "strong" and worthy of admiration, society recognises their suffering with grudging respect, while also endorsing and perpetuating their ordeals.</p>
+
+			<p class="center">By hailing these women as "strong" and worthy of admiration, society recognises their suffering with grudging respect, while also endorsing and perpetuating their ordeals.</p>
+
+			<p class="center_large">By hailing these women as "strong" and worthy of admiration, society recognises their suffering with grudging respect, while also endorsing and perpetuating their ordeals.</p>
+
+		<h2>The 'universal *' Selector:</h2>
+			<p>To be successful as a woman means withstanding societal pressure from all quarters, and having to brace themselves for each day as if nothing is wrong.</p>
+
+
+		<h2>'Group' Selectors:</h2>
+			<h3>This paragraph is under group selector.</h3>
+			<h4>This paragraph is under group selector.</h4>
+			<h5>This paragraph is under group selector.</h5>
+
+	<h1><u>How to add CSS</u></h1>
+		<h2>'external' css</h2>
+			<p>This is the example of external css.</p>
+		<h2>'internal' css</h2>
+			<h6>This is the example of internal css.</h6>
+			<style>
+				h6{
+					font-size: x-large;
+					background-color: yellowgreen;
+					text-align: center;
+				}
+			</style>
+		<h2>'inline' css</h2>
+			<p style="color: blue; text-align: right;">This is the example of inline css.</p>
+
+	<h1><u>Multiple Stylesheets & Cascading Order</u></h1>
+		<h2>This paragraph is for external css.</h2>
+		<h2 style="color: red;">This is for inline css which has the highest priority, and will override external and internal styles and browser defaults.</h2>
+		<h2> This paragraph is for internal css.</h2>
+		<style>
+			h2{
+				color: orangered;
+			}
+		</style>
+
+
+	<h1><u>CSS Comment /*   */</u></h1>
+
+		<p> Comments are used to explain the coding, and may help when you edit the coding later, and are ignored by browsers</p>
+
+	<h1><u>CSS Background Colors</u></h1>
+
+		<p style="background-color:DodgerBlue;">DodgerBlue</p>
+		<p style="background-color:MediumSeaGreen;">MediumSeaGreen</p>
+		<p style="background-color:Violet;">Violet</p>
+		<p style="background-color:LightGray;">LightGray</p>
+
+	<h1><u>CSS Text Colors</u></h1>
+		<p style="color:DodgerBlue;">DodgerBlue</p>
+		<p style="color:MediumSeaGreen;">MediumSeaGreen</p>
+		<p style="color:Violet;">Violet</p>
+		<p style="color:LightGray;">LightGray</p>
+
+	<h1><u>CSS Border Colors</u></h1>
+		<p style="border:3px dashed DodgerBlue;">DodgerBlue</p>
+		<p style="border:3px dashed MediumSeaGreen;">MediumSeaGreen</p>
+		<p style="border:3px dashed Violet;">Violet</p>
+		<p style="border:3px dashed LightGray;">LightGray</p>
+
+	<h1><u>CSS Color Values</u></h1>
+		<p style="background-color:rgb(255, 99, 71);">rgb(255, 99, 71)</p>
+		<p style="background-color:#ff6347;">#ff6347</p>
+		<p style="background-color:hsl(9, 100%, 64%);">hsl(9, 100%, 64%)</p>
+
+		
+		<p style="background-color:rgba(255, 99, 71, 0.5);">rgba(255, 99, 71, 0.5)</p>
+		<p style="background-color:hsla(9, 100%, 64%, 0.5);">hsla(9, 100%, 64%, 0.5)</p>
+
+	<h1><u>CSS Backgrounds</u></h1>
+		<h2>Background colors for different elements/class/id</h2>
+		<div>This is a text inside a div element.
+		<p class="bgcolor">Relief not reaching those who need it most.</p>
+		We are still in the div element.
+		</div>
+
+
+		<h2>Background colors with opacity</h2>
+		<div class="first">opacity 0.1</div>
+		<div class="second">opacity 0.3</div>
+		<div class="third">opacity 0.6</div>
+		<div>opacity 1 (default)</div>
+		<p>Using 'opacity' property in css, text gets transparent with opacity.</p>
+
+		<h2>Background colors with rgba</h2>
+		<div class="opacity1">opacity 0.1</div>
+		<div class="opacity2">opacity 0.3</div>
+		<div class="opacity3">opacity 0.6</div>
+		<div class="op_default">opacity 1 (default)</div>
+		<p>Using 'rgba' in css, text does not get transparent with opacity.</p>
+
+</body>
+
